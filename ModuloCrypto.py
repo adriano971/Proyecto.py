@@ -1,4 +1,4 @@
-"""Este modulo contiene las siguientes funciones destinadas a la inscripción de mensajes"""
+"""Este modulo contiene las siguientes funciones destinadas a la incriptación de mensajes"""
 """encrypTex() y decrypTex()"""
     
 def encrypTex(tex):    #Esta funcion realiza la codificacion de una cadena de texto.
