@@ -1,8 +1,5 @@
-""" Este módulo contiene las siguientes funciones destinadas a la validación de variables """
-""" 1) valInt()
-    2) valFloat()
-    3) valComplex()
-    4) valList() """
+#Este módulo contiene las siguientes funciones destinadas a la validación de variables.
+
     
 def valInt(*var):    #Validacion de datos de tipo entero. valInt(int,list/tuple).
     if len(var)==1:
