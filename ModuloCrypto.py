@@ -1,5 +1,5 @@
-"""Este modulo contiene las siguientes funciones destinadas a la incriptación de mensajes"""
-"""encrypTex() y decrypTex()"""
+#Este modulo contiene las siguientes funciones destinadas a la incriptación de mensajes:
+#encrypTex() y decrypTex()
     
 def encrypTex(tex):    #Esta funcion realiza la codificacion de una cadena de texto.
     dic_1={"A":"%", "B":",", "C":"/", "D":":", "E":"(", "F":"]", "G":"[", "H":"+", "I":"-",
