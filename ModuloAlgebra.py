@@ -34,12 +34,6 @@ def multiplicacionMatriz(matriz1,matriz2,n,m):    #Esta funcion realiza la multi
                 matriz_produc[i][j]=acu
     return matriz_produc
 
-
-
-    
-
-    
- 
     
 def det(matriz):    #Esta funcion calcula el determinante de una matriz.
     
@@ -69,7 +63,6 @@ def det(matriz):    #Esta funcion calcula el determinante de una matriz.
         for i in range(0,len(matriz)):
             total=total+((-1)**i)*matriz[0][i]*det(encoger(matriz,i))
     return total
-
 
 
 def gaussJordan(matriz):    #Funcion para hallar la inversa de una matriz.
